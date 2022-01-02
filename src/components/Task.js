@@ -1,6 +1,7 @@
 import { FaTimes } from 'react-icons/fa';
 
 const Task = ({ task, onDelete }) => {
+  console.log(task)
   return (
     <div className={'task'}>
       <h3>
@@ -10,7 +11,7 @@ const Task = ({ task, onDelete }) => {
           onClick={() => onDelete(task.id)}
         />
       </h3>
-      <p>{task.day}</p>
+      <p>{task.date}</p>
     </div>
   );
 };

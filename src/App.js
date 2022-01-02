@@ -9,12 +9,12 @@ function App() {
     {
       id: 1,
       text: 'docttor apointment',
-      day: 'feb 7th at 2:30pm',
+      date: 'feb 7th at 2:30pm',
     },
     {
       id: 2,
       text: 'sdafs apointment',
-      day: 'feb 4th at 2:30pm',
+      date: 'feb 4th at 2:30pm',
     },
   ]);
 
